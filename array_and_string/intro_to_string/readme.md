@@ -31,3 +31,12 @@ public class Main{
     }
 }
 ```
+- When we use built-in functions of **string**, we need to be careful with the **time complexity**.
+- For example, while the length of string is **N**, the time complexity of both find & substring operation is **O(N)**. 
+- Also, we need to be careful with **concatenate** if string is immutable. (It takes way too long)
+
+## So what do we do with **immutable** string?
+**Question**: So in java, how can we perform modification?
+
+- Convert **string** to **character array**.
+- Use other data structure like **StringBuilder**.
